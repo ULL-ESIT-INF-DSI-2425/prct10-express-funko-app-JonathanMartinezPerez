@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "nombre": "Goku",
+  "descripcion": "Sayajin legendario",
+  "tipo": "Pop!",
+  "genero": "Ánime",
+  "franquicia": "Dragon Ball",
+  "numero": 900,
+  "exclusivo": false,
+  "caracteristicas": "Super Saiyan",
+  "valor": 30
+}
