@@ -4,7 +4,9 @@ import { getFunko, listFunkos, addFunko, deleteFunko, updateFunko } from './func
 
 import bodyParser from 'body-parser';
 
-
+/**
+ * Servidor Express para gestionar la API de Funkos
+ */
 export const app = express();
 app.disable('x-powered-by');
 

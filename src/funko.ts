@@ -1,5 +1,8 @@
 import { FunkoType, FunkoGenre } from "./types.js";
 
+/**
+ * Clase que representa un Funko
+ */
 export class Funko {
     constructor(
         public id: number,
@@ -23,7 +26,11 @@ export class Funko {
             throw new Error("Valor de mercado debe ser positivo.");
         }*/
     }
-
+    
+    /**
+     * Método para convertir un objeto Funko a JSON
+     * @returns - objeto JSON
+     */
     static fromJson(data: any): Funko {
         return new Funko(
             data.id,
