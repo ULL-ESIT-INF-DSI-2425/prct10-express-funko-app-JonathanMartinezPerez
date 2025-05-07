@@ -1,3 +1,12 @@
 GET http://localhost:3000/api/songs/search?title=&artist=
 PATCH http://localhost:3000/api/songs/<id>
 DELETE http://localhost:3000/api/songs/<id>
+
+{
+  "title": "Bohemian Rhapsody",
+  "artist": "Queen",
+  "album": "A Night at the Opera",
+  "genre": "rock",
+  "year": 1975,
+  "duration": "5:55"
+}
