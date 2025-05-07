@@ -1,0 +1,3 @@
+GET http://localhost:3000/api/songs/search?title=&artist=
+PATCH http://localhost:3000/api/songs/<id>
+DELETE http://localhost:3000/api/songs/<id>
